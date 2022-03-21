@@ -1,0 +1,70 @@
+.pie-pagina{
+    margin-top: 8%;
+    width: 100%;
+    background-color:  rgb(238, 243, 251);
+}
+
+.pie-pagina a{
+    text-decoration: none;
+    color: rgb(112, 126, 150);
+}
+
+.box-1{
+    margin: 0 20%;
+}
+
+.box h3{
+    color: rgb(31, 62, 114);
+    margin-bottom: 10%;
+    
+}
+
+.box-1 p{
+    color: rgb(112, 126, 150);
+}
+
+.grupo1{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.box a{
+    display: block;
+    padding-bottom: 25px;
+}
+
+.box .h3{
+    font-size: 25px;
+    color: rgb(44, 76, 202);
+    width: 100%;
+}
+
+.grupo2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.box1{
+    padding: 0 7%;
+    color: rgb(112, 126, 150);
+}
+
+.box2{
+    padding-right: 10%;
+}
+
+.box2 a{
+    padding: 5%;
+}
+
+
+.box2{
+    text-align: right;
+}

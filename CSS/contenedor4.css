@@ -1,0 +1,129 @@
+.contenedor4{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 450px;
+    margin-top: 200px;
+}
+
+.contenedor4__2{
+    display: flex;
+    text-align: center;
+    align-items: flex-end;
+    width: 50%;
+}
+
+.contenedor4__img{
+    background: linear-gradient(90deg, rgba(10, 151, 230, 1) 0%, rgba(41, 114, 222, 1) 70%, rgba(41, 114, 222, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 75%;
+    width: 100%;
+}
+
+.contenedor4__2 img{
+    width: 80%;
+}
+
+
+.contenedor4__1{
+    align-items: flex-start;
+    color: rgb(31, 62, 114);
+    min-width: 450px;
+    width: 50%;
+    margin-top: -200px;
+    padding-top: 10%;
+}
+
+.contenedor4__1 h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0 10%;
+    margin-bottom: 5%;
+}
+
+.contenedor4__1 p{
+    color: rgb(112, 126, 150);
+    font-weight: 500;
+    font-size: 1.3em;
+    text-align: justify;
+    margin: 0 10%;
+
+}
+
+
+.contenedor4__opciones{
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;    
+}
+
+.contenedor4_opciones-2{
+    margin: 2rem;
+    flex-basis: 1;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 10%);
+}
+
+.contenedor4__opc1{
+    display: flex;
+    align-items: center;
+    margin: 25px 25px;
+}
+
+
+.contenedor4__opc1 i{
+    color: rgb(44, 76, 202);
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    background-color: rgb(233, 231, 254,.5);
+}
+
+.info{
+    display: block;
+    margin-left: 15px;
+}
+
+.info h3{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.info p{
+    padding: 0 1rem;
+}
+.contenedor4__opc2{
+    width: 80%;
+    margin: 15% 10% 0 10%;
+}
+
+.contenedor4__opc2 > button{
+    padding: 1rem 0;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: rgb(44, 76, 202);
+    background-color: rgb(233, 231, 254,.5);
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.contenedor4__opc2 button:hover{
+    background-color: rgb(44, 76, 202);
+    color: #fff;
+}
+
+.contenedor4_opciones-2:hover{
+    box-shadow: 0px 2px 5px 5px  rgb(233, 231, 254);
+}
+
+@media screen and (max-width: 900px){
+
+    .contenedor4__1,.contenedor4__2{
+        width: 100%;
+    }
+}
